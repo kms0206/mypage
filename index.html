@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="og:title" content="KimMinSoo - Profile Line">
+    <meta property="og:description" content="Welcom to my Profile!!">
+    <meta property="og:image" content="공유할 이미지">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>KMS - 프로필 링크</title>
+    <style>
+        /* 글꼴 START*/
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        /* 글꼴 END */
+        body{
+            background-color:#44398A;
+        }
+        .profile{
+            width : 100px;
+            height :100px;
+
+            background-color: aqua;
+            border-radius: 100%;
+
+            border : 2px solid white;
+            background-image: url('bw.png');
+        }
+        .main{
+            color:white;
+            size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub{
+            color:white;
+            size: 14px;
+            margin-top : 0px;
+            margin-bottom :30px;
+        }
+
+        .wrap{
+            width : 300px;
+            margin : 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap>a{
+            border-radius: 8px;
+            border : 2px solid white;
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            margin-bottom : 10px;
+            font-size: 14px;
+            font-weight : bold;
+            color : #44398A;
+
+            text-decoration : none;
+
+            box-shadow: 3px 3px 5px 0px black;
+
+            /* display flex */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* display flex */
+
+            
+        }
+        .wrap>a:hover{
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class = "wrap" >
+        <div class="profile">    </div>
+        <h1 class="main">Bright Way</h1>
+        <p class = "sub">Welcom to BW Profile..</p>
+        <a target="_blank" href="https://blog.naver.com/ms26sm">네이버블로그</a>
+        <a target="_blank" href="https://youtu.be/NyxWVRU2GBk">유튜브</a>
+        
+    </div>
+</body>
+</html>
